@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["whosekiteneverfly@gmail.com"]
   spec.summary       = %q{Observer extension for class.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/igrep/beatup"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
