@@ -1,6 +1,5 @@
-require "beatup/version"
-
 module Beatup
+  VERSION = '0.0.1'
 
   module Listener
 
