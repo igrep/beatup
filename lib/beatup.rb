@@ -15,8 +15,6 @@ module Beatup
 
   end
 
-  # Your code goes here...
-
   module Triggerable
 
     class << self
