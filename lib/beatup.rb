@@ -9,7 +9,7 @@ module Beatup
       end
 
       callbacks = (klass.__BEATUP_CALLBACKS__[event_name] ||= [])
-      callbacks << method_name ?  self.method(method_name) : callback
+      callbacks << (method_name ?  self.method(method_name) : callback)
       self
     end
 
