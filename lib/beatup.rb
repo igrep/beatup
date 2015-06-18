@@ -18,9 +18,11 @@ module Beatup
   module Triggerable
 
     class << self
-      attr_accessor :__BEATUP_CALLBACKS__
 
       def included mod
+        class << mod
+          attr_accessor :__BEATUP_CALLBACKS__
+        end
         mod.__BEATUP_CALLBACKS__ = {}
       end
 
